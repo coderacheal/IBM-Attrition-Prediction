@@ -1,5 +1,6 @@
 Business Understanding
     1. Explanation of features
+    2. Project Goal
     2. Hypothesis (Null and Alternate)
     3. Analytical questions
 Data Understanding
@@ -8,19 +9,20 @@ Data Understanding
     3. EDA
         1. Explore data (info, duplicated, null values, describe)
         2. Univariate, Bi-variate, Multi-variate Analysis
-    4. Answer Analytical questions
+    4. Answer Analytical questions with visulizations
     5. Test hypothesis
     6. Give your insights
 Data Preparation
-    1. Feature Engineering
-    2. Split data set into X, y
-    3. Split data set into training and evaluation
-    4. Create a pipeline to preprocess the data
-        1. Handle missing values 
-        2. Standardize or normalize the data
-        2. Log transformation
-        3. Encode categorical features
-        3. Etc
+    1. Split data set into X, y
+    2. Split data set into training and evaluation
+    3. Feature Engineering (Creating New Features, Handling Missing Data, Encoding, Normalization & scaling)
+        a. Create a pipeline to preprocess the data
+            1. Separate inpute features into numeric and categorical for different pipelines
+            1. Handle missing values using imputation Techniques
+            2. Scaling or normalize numeric features
+            3. Encode categorical features
+            4. Log transformation skewed data
+            5. Etc
     5. Encode label
     6. Check balance - Balance Data set (depending on what you see)
 Modeling 
