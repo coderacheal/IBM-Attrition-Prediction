@@ -16,15 +16,14 @@ Data Preparation
     1. Split data set into X, y
     2. Split data set into training and evaluation
     3. Feature Engineering (Creating New Features, Handling Missing Data, Encoding, Normalization & scaling)
-        a. Create a pipeline to preprocess the data
-            1. Separate inpute features into numeric and categorical for different pipelines
-            1. Handle missing values using imputation Techniques
-            2. Scaling or normalize numeric features
-            3. Encode categorical features
-            4. Log transformation skewed data
-            5. Etc
-    5. Encode label
-    6. Check balance - Balance Data set (depending on what you see)
+      a. Create a pipeline to preprocess the data
+        1. Separate inpute features into numeric and categorical for different pipelines
+        1. Handle missing values using imputation Techniques
+        2. Scaling or normalize numeric features
+        3. Encode categorical features
+        4. Log transformation skewed data
+        5. Balance Data set (depending on what you see)
+    4. Encode label/target
 Modeling 
     1. Fit data to the pipeline and train Model
         1.Train Model 1 - Distance based model
