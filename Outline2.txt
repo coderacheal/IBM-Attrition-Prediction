@@ -1,0 +1,39 @@
+Business Understanding
+    1. Explanation of features
+    2. Project Goal
+    2. Hypothesis (Null and Alternate)
+    3. Analytical questions
+Data Understanding
+    1. Importation
+    2. Load Dataset
+    3. EDA
+        1. Explore data (info, duplicated, null values, describe)
+        2. Univariate, Bi-variate, Multi-variate Analysis
+    4. Answer Analytical questions with visulizations
+    5. Test hypothesis
+    6. Give your insights
+Data Preparation
+    1. Split data set into X, y
+    2. Split data set into training and evaluation
+    3. Feature Engineering (Creating New Features (binning & bucketing), Handling Missing Data, Encoding, 
+        Normalization & scaling)
+      a. Create a pipeline to preprocess the data
+        1. Separate inpute features into numeric and categorical for different pipelines
+        2. Handle missing values using imputation Techniques
+        3. Scaling or normalize numeric features
+        4. Encode categorical features
+        5. Transformations for skewed data (log, power, custom, etc)
+        6. Balance Data set (depending on what you see)
+    4. Encode label/target
+Modeling 
+    1. Fit data to the pipeline and train Model
+        1.Train Model 1 - Distance based model
+        2.Train Model 2 - Gradient Descent model
+        3.Train Model 3 - Tree based model
+Evaluation
+    1. Advance model evaluation
+    2. Visualizing model performance
+    3. Hyperparameter Tuning and Retraining
+    3. Selecting the apropriate model
+    4. Persit Model
+Deployment
