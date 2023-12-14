@@ -31,9 +31,12 @@ Modeling
         2.Train Model 2 - Gradient Descent model
         3.Train Model 3 - Tree based model
 Evaluation
-    1. Advance model evaluation
-    2. Visualizing model performance
-    3. Hyperparameter Tuning and Retraining
-    3. Selecting the apropriate model
-    4. Persit Model
+    1. Advance Model Evaluation and Visualizing Model Performance: (ROC curves, AUC, precision-recall curves, and confusion matrices).
+    2. Feature Importance and Selection
+    3. Hyperparameter Tuning: (GridSearchCV, RandomizedSearchCV, or Bayesian optimization.)
+    4. Model Comparison & Selection: (Consider trade-offs and choose most apropriate)
+    5. Business Impact Assessment and Documentation of the Model (How does what you choose affect the business?)
+    6. Model Persistence
 Deployment
+
+
