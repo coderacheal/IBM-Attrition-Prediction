@@ -1,8 +1,8 @@
 Business Understanding
-    1. Explanation of features
-    2. Project Goal
-    2. Hypothesis (Null and Alternate)
-    3. Analytical questions
+    1. Project Goal 
+    2. Explanation of features
+    3. Hypothesis (Null and Alternate)
+    4. Analytical questions
 Data Understanding
     1. Importation
     2. Load Dataset
@@ -15,8 +15,8 @@ Data Understanding
 Data Preparation
     1. Split data set into X, y
     2. Split data set into training and evaluation
-    3. Feature Engineering (Creating New Features (binning & bucketing), Handling Missing Data, Encoding, 
-        Normalization & scaling)
+    3. Feature Engineering (Creating New Features, (binning & bucketing), Handling Missing Data, Encoding, Standardization, 
+        Normalization, Scaling)
       a. Create a pipeline to preprocess the data
         1. Separate inpute features into numeric and categorical for different pipelines
         2. Handle missing values using imputation Techniques
@@ -27,14 +27,14 @@ Data Preparation
     4. Encode label/target
 Modeling 
     1. Fit data to the pipeline and train Model
-        1.Train Model 1 - Distance based model
-        2.Train Model 2 - Gradient Descent model
-        3.Train Model 3 - Tree based model
+        a.Train Model 1 - Distance based model
+        b.Train Model 2 - Gradient Descent model
+        c.Train Model 3 - Tree based model
 Evaluation
     1. Advance Model Evaluation and Visualizing Model Performance: (ROC curves, AUC, precision-recall curves, and confusion matrices).
     2. Feature Importance and Selection
     3. Hyperparameter Tuning: (GridSearchCV, RandomizedSearchCV, or Bayesian optimization.)
-    4. Model Comparison & Selection: (Consider trade-offs and choose most apropriate)
+    4. Final Model Comparison & Selection: (Consider trade-offs and choose most apropriate)
     5. Business Impact Assessment and Documentation of the Model (How does what you choose affect the business?)
     6. Model Persistence
 Deployment
