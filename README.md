@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h1><b>Wine Grader</b></h1>
+  <h1><b>IBM Attrition Prediction</b></h1>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -9,7 +9,8 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [Wine Grader ](#wine-grader-)
+- [IBM Attrition Prediction ](#ibm-attrition-prediction-)
+    - [Features](#features)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
   - [Key Features ](#key-features-)
@@ -17,7 +18,6 @@
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
-    - [Usage](#usage)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -27,40 +27,34 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# Wine Grader <a name="about-project"></a>
+# IBM Attrition Prediction <a name="about-project"></a>
 
-**Wine Grader** This is a Machine Learning API built with FastAPI to predict Wine grades.
+**IBM Attrition Prediction** This is a Machine Learning model that predicts whether customers will churn or not.
 
-Features
-1. **Alcohol:** The alcohol content of the wine.
-2. **Malic acid:** The amount of malic acid in the wine, which can affect the taste and acidity.
-3. **Ash:** The ash content in the wine, representing the inorganic content after incineration.
-4. **Alcalinity of ash:** The alkalinity of the ash, which can influence the taste and pH of the wine.
-5. **Magnesium:** The amount of magnesium in the wine.
-6. **Total phenols:** The total amount of phenolic compounds in the wine, which contribute to its flavor and color.
-7. **Flavanoids:** The amount of flavonoids in the wine, which are responsible for various sensory attributes.
-8. **Nonflavanoid phenols:** The amount of non-flavonoid phenolic compounds in the wine.
-9. **Proanthocyanins:** The amount of proanthocyanins, a type of antioxidant, in the wine.
-10. **Color intensity:** The color intensity of the wine, which can be influenced by various compounds.
-11. **Hue:** The hue of the wine, representing the color shade.
-12. **OD280/OD315 of diluted wines:** The optical density of the wine, which is measured at two different wavelengths. It can provide information about the color.
-13. **Proline:** The amount of proline, an amino acid, in the wine.
+### Features
+
+1. **Age**: Age of employee
+2. **Attrition**: Employee attrition status
+3. **Department**: Department of work
+4. **DistanceFromHome**: what is their distance from hime
+5. **Education**: 1-Below College; 2- College; 3-Bachelor; 4-Master; 5-Doctor;
+6. **EducationField**: The field they studies in in the University
+7. **EnvironmentSatisfaction**: 1-Low; 2-Medium; 3-High; 4-Very High;
+8. **JobSatisfaction**: 1-Low; 2-Medium; 3-High; 4-Very High;
+9. **MaritalStatus**: Whether they are married, single or divorced
+10. **MonthlyIncome**: How much an employee makes a month
+11. **NumCompaniesWorked**: Number of companies worked prior to IBM
+12. **WorkLifeBalance**: 1-Bad; 2-Good; 3-Better; 4-Best;
+13. **YearsAtCompany**: Current years of service in IBM
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Server</summary>
+  <summary>Data</summary>
   <ul>
-    <li><a href="">Uvicorn</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Container</summary>
-  <ul>
-    <li><a href="">Docker</a></li>
+    <li><a href="">Kaggle</a></li>
   </ul>
 </details>
 
@@ -83,8 +77,7 @@ Features
 
 ## Key Features <a name="key-features"></a>
 
-- **An API endpoint to predict wine grades**
-- **A home and info endpoint**
+- **A classification model that predicts attrition**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -101,7 +94,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 - Python
-- Docker
+- Sklearn
 
 ### Setup
 
@@ -110,13 +103,13 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/coderacheal/Wine-Grader-Machine-Learning-API.git
+  git clone https://github.com/coderacheal/IBM-Attrition-Prediction.git
 ```
 
 Change into the cloned repository
 
 ```sh
-  cd Wine-Grader-Machine-Learning-API
+  cd IBM-Attrition-Prediction
   
 ```
 
@@ -143,23 +136,6 @@ Here, you need to recursively install the packages in the `requirements.txt` fil
    pip install -r requirements.txt
 ```
 
-
-### Usage
-
-To run the project, execute the following command:
-
-
-```sh
-  uvicorn main:app --reload 
-
-  OR 
-
-  uvicorn main:app 
-```
-
-- Click on the `http://127.0.0.1:8000` that show up in the terminal
-- In the browser add a `/docs` to see the Swagger UI for Fastapi
-- Finally test a prediction by clicking on the     `Try it out` button that shows up when you click on the prediction function or endpoint
 
 <!-- AUTHORS -->
 

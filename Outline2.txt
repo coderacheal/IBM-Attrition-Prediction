@@ -35,6 +35,7 @@ Evaluation
     2. Feature Importance and Selection
     3. Hyperparameter Tuning: (GridSearchCV, RandomizedSearchCV, or Bayesian optimization.)
     4. Final Model Comparison & Selection: (Consider trade-offs and choose most apropriate)
+    5. Retrain Model with best paramaters
     5. Business Impact Assessment and Documentation of the Model (How does what you choose affect the business?)
     6. Model Persistence
 Deployment
