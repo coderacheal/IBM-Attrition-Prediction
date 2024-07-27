@@ -1,18 +1,25 @@
-Business Understanding
-    1. Project Goal 
-    2. Explanation of features
-    3. Hypothesis (Null and Alternate)
-    4. Analytical questions
-Data Understanding
+- Create the project environment (Repository, virtual environment,version control)
+1. Business Understanding
+    - Problem Statement
+    - Goal and Objectives
+    - Stakeholders
+    - Key Metrics and Success Criteria
+    - Hypothesis (Null and Alternate)
+    - Analytical Questions
+    - Scope and Constraints
+    - More Information about the project if applicable
+2. Data Understanding
     1. Importation
     2. Load Dataset
     3. EDA
-        1. Explore data (info, duplicated, null values, describe)
-        2. Univariate, Bi-variate, Multi-variate Analysis
+        1. Data Quality Assessment & Exploring data (info, duplicated, null values, describe)
+        2. Univariate
+        3. Bi-variate
+        4. Multi-variate Analysis
     4. Answer Analytical questions with visulizations
     5. Test hypothesis
     6. Give your insights
-Data Preparation
+3. Data Preparation
     1. Split data set into X, y
     2. Split data set into training and evaluation
     3. Feature Engineering (Creating New Features, (binning & bucketing), Handling Missing Data, Encoding, Standardization, 
@@ -23,14 +30,15 @@ Data Preparation
         3. Scaling or normalize numeric features
         4. Encode categorical features
         5. Transformations for skewed data (log, power, custom, etc)
-        6. Balance Data set (depending on what you see)
+        6. Balance dataset (depending on what you see)
     4. Encode label/target
-Modeling 
+4. Modeling 
     1. Fit data to the pipeline and train Model
         a.Train Model 1 - Distance based model
         b.Train Model 2 - Gradient Descent model
         c.Train Model 3 - Tree based model
-Evaluation
+        c.Train Model 4 - Neural Network
+5. Evaluation
     1. Advance Model Evaluation and Visualizing Model Performance: (ROC curves, AUC, precision-recall curves, and confusion matrices).
     2. Feature Importance and Selection
     3. Hyperparameter Tuning: (GridSearchCV, RandomizedSearchCV, or Bayesian optimization.)
@@ -38,6 +46,6 @@ Evaluation
     5. Retrain Model with best paramaters
     5. Business Impact Assessment and Documentation of the Model (How does what you choose affect the business?)
     6. Model Persistence
-Deployment
-
-
+6. Deployment (Not applicable in this project)
+    1. Deployment Strategy
+    2. Model Monitoring and Maintenance
